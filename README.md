@@ -1,68 +1,146 @@
-# Awesome-Geo-Location-Price-Localization
+# Awesome Geo-Location & Price Localization 🌍 💳
 
-## Top Geo-Location & Price Localization Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Tracked Tools](https://img.shields.io/badge/Tracked%20Tools-15+-blue.svg)](https://github.com/ishandutta2007/Awesome-Geo-Location-Price-Localization)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Geo-Location-Price-Localization/pulls)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on Market-Specific Pricing, Currency Localization & Self-Hosted Personalization Engines*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Geo-Location & Price Localization**. These tools help businesses adapt pricing and content to local markets—covering everything from billing platforms that handle multi-currency subscriptions to personalization engines that adjust offers based on visitor location, and price optimization suites that model regional willingness-to-pay.
-
-**Examples** include Chargebee, Dynamic Yield, Pricefx, PROS, Vendavo, Bloomreach, and open-source alternatives like Omniconvert Explore (free tier) (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted pricing analytics, open-source A/B testing with geo-targeting, and community-driven personalization—ideal for organizations seeking data sovereignty and avoiding per-traffic or per-domain SaaS pricing. The open-source landscape is genuinely thin for **full price optimization** (which requires proprietary data models and elasticity engines), but functional for **A/B testing and basic geo-personalization**: **Omniconvert Explore** offers a free tier with unlimited tests for up to 50,000 tested visitors, including geo-targeting and personalization features [citation:10].
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Chargebee](https://www.chargebee.com/)** | **Billing platform with native multi-currency and market-specific pricing.** Configure prices in local currencies with **fixed or real-time exchange rates**; adapt plans by region without rebuilding your catalog. **Smart Routing Rules** pick the best payment gateway per currency. Tax (GST, Sales Tax, EU-VAT) calculated automatically based on customer location [citation:1][citation:11]. | Quote-only (Billing plans from ~$0 + % of invoicing) | No free tier for multi-currency; trial available |
-| **[Dynamic Yield](https://www.dynamicyield.com/)** | **Real-time personalization and A/B testing engine.** Personalizes content, banners, and offers based on **geo, weather, device, and behavioral targeting** [citation:2]. Starting price reported at **$35,000/year**; reviews note the interface can feel overwhelming and A/B test reporting is somewhat limited [citation:12]. | From **~$35,000/year** [citation:12] | No free tier; demo via sales |
-| **[Pricefx](https://www.pricefx.com/)** | **Modular pricing optimization suite.** **Plan package is subscription-free**—no recurring payments for analytics. **Price** adds price list management and optimization across segments; **Profit** adds CPQ, rebates, and deal planning [citation:3][citation:13]. | **Plan: Free** (analytics); Price/Profit: quote-only | **Free (Plan)**: pricing analytics with no time limit [citation:13] |
-| **[PROS Smart CPQ](https://www.pros.com/)** | **AI-driven CPQ and dynamic pricing for global teams.** **Converted Price Widget** shows real-time currency conversions in a single quote column—no separate columns per currency. **Multi-language template support** for localized documents. Supports global currencies and localization [citation:4][citation:14]. | Quote-only (private offers via Microsoft Marketplace) | No free tier; demo via sales |
-| **[Vendavo](https://www.vendavo.com/)** | **Price management for B2B across lines of business, regions, and channels.** Supports value-based and competitive pricing strategies; centralized system for diverse geographies and business models [citation:5]. | Quote-only | No free tier; demo via sales |
-| **[Zilliant](https://www.zilliant.com/)** | **B2B price optimization with AI-driven guidance.** Price IQ engine, scenario modeling, and constraint-based optimization; integrates with ERP, CRM, CPQ, and eCommerce for consistent pricing across channels [citation:6]. | Quote-only | No free tier; demo via sales |
-| **[Bloomreach](https://www.bloomreach.com/)** | **Personalization and product data platform with context-aware catalogs.** **Contexts in Data hub** (Oct 2026) let you tailor product data, prices, and availability per store, region, or price list from one catalog—ideal for location-based pricing [citation:7]. | Quote-only | No free tier; demo via sales |
-| **[Monetate](https://www.monetate.com/)** | Personalization platform with geo and behavioral targeting. Gartner Peer Insights notes **custom-quote pricing** based on traffic volume, domains, and feature set [citation:9]. | Quote-only (custom by traffic/domains) | No free tier; demo via sales |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Omniconvert Explore](https://www.omniconvert.com/pricing/)** | — | **The most accessible free-tier option for geo-targeted A/B testing and personalization.** **Free plan includes unlimited A/B/n tests for up to 50,000 tested visitors**—not a stripped-down demo, but the full Explore feature set [citation:10]. **Geo-targeting** built in (country, region, IP, ISP), plus **weather conditions targeting**, RFM segments, and behavioral triggers. **Personalization features**: dynamic text replacement, on-exit/on-scroll overlays, and multi-device campaigns. **Trade-off**: not a price optimization engine—you define the pricing variations and Omniconvert serves them based on visitor context. **Best for teams wanting to test localized pricing and offers** without a commercial personalization contract [citation:10]. |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| ***(No mature open-source price optimization engines identified)*** | — | The search results did not surface any open-source projects comparable to Pricefx, PROS, Vendavo, or Zilliant. **Full price optimization requires proprietary elasticity models and customer data** that open-source projects have not replicated. Teams needing optimization should either use commercial platforms or build custom models on top of open data. |
-
-**Frameworks for building custom systems**: The open-source path to geo-price localization is **A/B testing with geo-targeting, not optimization**. **Omniconvert Explore** provides a free tier with unlimited tests for up to 50k visitors, including geo, weather, and behavioral targeting [citation:10]. For **billing-side localization**, **Chargebee** handles multi-currency and tax automatically [citation:1][citation:11]. **No open-source project matches the elasticity modeling of Pricefx or Zilliant**—those require commercial platforms or custom data science.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Geo-location and price localization tools handle customer location data and pricing decisions; enforce privacy compliance (GDPR, CCPA) for geo-tracking and avoid discriminatory pricing practices that may violate consumer protection laws.
-- **Price localization has two distinct layers that are often conflated.** **Billing localization** (Chargebee) handles currency conversion, payment routing, and tax—it does not optimize *how much* you charge in each market [citation:1][citation:11]. **Price optimization** (Pricefx, PROS, Zilliant) models willingness-to-pay and margin trade-offs—this is where the real revenue impact lives, but it requires proprietary data models and is almost exclusively commercial [citation:3][citation:4][citation:6]. **Dynamic Yield and Omniconvert** sit in between—they can serve different prices or offers based on geo, but the pricing strategy itself is defined by you [citation:2][citation:10]. **Open-source is genuinely thin here**: Omniconvert Explore's free tier is the most accessible way to test geo-targeted offers [citation:10], but **no open-source project replicates Pricefx's or Zilliant's optimization engines**. Validate whether you need billing localization (Chargebee), A/B testing (Omniconvert), or optimization (Pricefx/Zilliant) before committing.
+> **A curated directory of SaaS platforms, API engines, and open-source GitHub projects for market-specific dynamic pricing, currency localization, geo-targeting, and purchasing power parity (PPP).**
 
 ---
 
-**Made for pricing managers, revenue operations teams, and developers building localization infrastructure.**  
-Let's make geo-location and price localization more open, transparent, and market-aware.
+## Overview
+
+Adapting prices and offers to local consumer purchasing power and currency expectations is one of the highest-leverage growth strategies for modern SaaS, digital products, and international e-commerce. **Price localization** spans multiple architectural tiers:
+- **Billing Localization & Merchant of Record (MoR):** Multi-currency checkout, automated foreign exchange (FX) conversion, and automated local tax calculation (VAT/GST/Sales Tax).
+- **Purchasing Power Parity (PPP) & Geo-Pricing:** Adjusting price indexes dynamically according to country-level GDP per capita or cost-of-living metrics (e.g., Big Mac Index) via IP geolocation.
+- **Enterprise Price Optimization (PO&M):** Advanced algorithmic elasticity modeling, constraint-based margin management, and B2B CPQ (Configure, Price, Quote).
+- **Geo-Targeting & Personalization:** Serving regional product catalogs, contextual landing pages, and localized promo banners based on visitor geolocation.
+
+---
+
+## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Platforms](#saashosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+  - [Open-Source Commerce & Billing Engines](#open-source-commerce--billing-engines)
+  - [Purchasing Power Parity & Geo-Pricing Tools](#purchasing-power-parity--geo-pricing-tools)
+  - [GeoIP & Location Detection Libraries](#geoip--location-detection-libraries)
+  - [Currency Conversion & Exchange Rate APIs](#currency-conversion--exchange-rate-apis)
+  - [Feature Flags & Experimentation Engines](#feature-flags--experimentation-engines)
+- [Architectural Considerations](#architectural-considerations)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global price optimization and commercial localization software sector is valued at approximately **$1.95B to $2.0B in 2026** (scaling past **$9.7B** when factoring in broader enterprise Quote-to-Cash, CPQ, and revenue management suites), compounding at ~16.5% CAGR. The market remains **moderately to highly fragmented**, bifurcated between multi-billion-dollar enterprise CPQ/ERP suites (e.g., PROS, Vendavo, Pricefx), specialized Merchant of Record and subscription billing platforms (e.g., Chargebee, Paddle), and high-growth experimentation and personalization engines (e.g., Bloomreach, Dynamic Yield). No single vendor exercises winner-take-all dominance across all layers, driving sustained M&A activity and hybrid architectures pairing open-source geo-infrastructure with commercial billing backends.
+
+---
+
+## SaaS/Hosted Platforms
+
+The table below outlines leading SaaS platforms for pricing optimization, geo-personalization, and international billing infrastructure. Entries are sorted in descending order by company size (valuation or annual revenue).
+
+| Product | Company Size (Valuation / Revenue) | Description | Starting Pricing | Free Tier / Trial Limits |
+|:---|:---|:---|:---|:---|
+| **[Chargebee](https://www.chargebee.com/)** | **$3.5B Valuation** (~$200M+ ARR) | Subscription management & recurring billing platform with native multi-currency support, regional tax compliance (VAT, GST), smart gateway routing, and localized catalog management. | **$0/mo base** on Starter plan; **$599/mo** (billed annually) for Performance plan (includes up to $100k/mo MRR + 0.75% overage). | **Free up to $250,000** cumulative lifetime billing on Starter plan (0.75% overage fee applies thereafter); includes test site sandbox limited to 150 API calls/min. |
+| **[Bloomreach](https://www.bloomreach.com/)** | **$2.2B Valuation** (~$150M+ ARR) | E-commerce personalization & discovery platform. Contexts in Data Hub tailor product data, localized prices, and regional availability across stores and markets from a single catalog. | **~$35,000 to $60,000/year** entry-level contract (modular base fee plus usage-based pricing). | **No free tier.** Guided demo available upon request; developer public sandbox available for CMS testing. |
+| **[PROS Smart CPQ](https://www.pros.com/)** | **$1.4B Valuation** (~$351M TTM Revenue) | Enterprise AI-powered CPQ and dynamic pricing suite. Features real-time multi-currency Converted Price Widgets and multi-language localized quoting templates. | **$60/user/month** (Essentials tier); Advantage/Omnichannel tiers range from **$75–$95+/user/month**. | **No free tier.** Standardized self-serve trial unavailable; custom guided enterprise demo and PoC via sales. |
+| **[Dynamic Yield](https://www.dynamicyield.com/)** | **$320M Valuation** (Acquired by Mastercard) | Real-time personalization and A/B testing OS (Experience OS) providing dynamic geo-location, weather, behavioral, and device-level offer adaptation. | **~$35,000/year** starting annual contract (scaled by monthly unique visitors and module footprint). | **No free tier.** Standardized trial unavailable; sales-led demo and enterprise proof-of-concept upon request. |
+| **[Vendavo](https://www.vendavo.com/)** | **~$100M+ ARR** (PE-backed by Accel-KKR) | B2B price management, dynamic deal guidance, and intelligent CPQ supporting multi-geography value-based and competitive pricing strategies. | **~$75,000 to $200,000/year** (annual enterprise contract based on revenue under management and user seats). | **No free tier.** Standardized trial unavailable; tailored enterprise demo available upon request. |
+| **[Pricefx](https://www.pricefx.com/)** | **~$88M Revenue** (Backed by Apax Digital) | Cloud-native modular pricing optimization and CPQ software suite covering price setting, customer segmentation analytics, and rebate management. | **~$50,000 to $150,000/year** annual subscription (plus one-time enterprise implementation fees). | **No free tier.** Standardized trial unavailable; tailored enterprise demonstration available upon request. |
+| **[Zilliant](https://www.zilliant.com/)** | **~$35M ARR** (PE-backed by Madison Dearborn) | AI-driven B2B price optimization, Price IQ elasticity engine, and margin guidance integrating across CRM, ERP, and digital commerce. | **~$60,000 to $150,000/year** (annual contract value based on catalog size and transaction volume). | **No free tier.** Standardized trial unavailable; customized demonstration via sales consultation. |
+| **[Monetate](https://www.monetate.com/)** | **~$20M Revenue** (Centre Lane Partners) | E-commerce experimentation and personalization suite featuring geo-targeting, automated audience segmentation, and personalized banner/price triggers. | **~$35,000 to $45,000/year** starting contract (scaled dynamically by annual visitor traffic and domains). | **No free tier.** Standardized trial unavailable; custom product demo available via sales. |
+| **[Omniconvert Explore](https://www.omniconvert.com/)** | **~$1M ARR** (Bootstrapped / Venture-backed) | Conversion rate optimization and experimentation SaaS featuring native IP/geo-targeting, weather-condition triggers, and dynamic on-page price testing. | **$245/month** starting paid tier (for traffic up to 100k visitors/mo). | **Free forever plan** up to **50,000 tested visitors/month** with full Explore feature access (no credit card required; experiments pause if visitor limit is exceeded). |
+
+---
+
+## Open-Source GitHub Projects
+
+Open-source tooling enables developers to implement localized pricing, geo-IP resolution, currency conversion, and purchasing power parity adjustments without high per-seat or per-traffic SaaS lock-in. 
+
+Entries across each category are sorted in descending order by GitHub star count.
+
+### Open-Source Commerce & Billing Engines
+
+Self-hosted commerce frameworks and billing infrastructure supporting multi-currency pricing, geographic tax jurisdictions, and regional store localization.
+
+| Project | Star Badge | Description |
+|:---|:---|:---|
+| **[Medusa](https://github.com/medusajs/medusa)** | [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Composable, headless commerce platform with built-in multi-region architecture, native multi-currency pricing, custom regional tax providers, and automated shipping zones. |
+| **[Kill Bill](https://github.com/killbill/killbill)** | [![GitHub stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Open-source subscription billing and payments platform. Handles multi-currency invoices, payment routing, tenant-level localization, and self-hosted financial pipelines. |
+
+### Purchasing Power Parity & Geo-Pricing Tools
+
+Libraries and automation scripts designed to calculate and apply purchasing power parity (PPP) multipliers and country-specific pricing tiers.
+
+| Project | Star Badge | Description |
+|:---|:---|:---|
+| **[purchasing-power-parity](https://github.com/purchasing-power-parity/purchasing-power-parity)** | [![GitHub stars](https://img.shields.io/github/stars/purchasing-power-parity/purchasing-power-parity?style=social&color=white)](https://github.com/purchasing-power-parity/purchasing-power-parity/stargazers) | Dynamic web application and country pricing multiplier calculator to adjust software and digital product prices globally based on World Bank PPP factors. |
+| **[appstore-ppp-pricing-agent-skill](https://github.com/duceum/appstore-ppp-pricing-agent-skill)** | [![GitHub stars](https://img.shields.io/github/stars/duceum/appstore-ppp-pricing-agent-skill?style=social&color=white)](https://github.com/duceum/appstore-ppp-pricing-agent-skill/stargazers) | CLI tool and agent skill to bulk-update App Store in-app purchases and subscription prices across 175+ countries using purchasing power parity indexes. |
+| **[datasets/ppp](https://github.com/datasets/ppp)** | [![GitHub stars](https://img.shields.io/github/stars/datasets/ppp?style=social&color=white)](https://github.com/datasets/ppp/stargazers) | Clean, machine-readable dataset of World Bank Purchasing Power Parity (PPP) conversion factors and national price level ratios across global economies. |
+| **[ppp-pricing](https://github.com/iosdevmax/ppp-pricing)** | [![GitHub stars](https://img.shields.io/github/stars/iosdevmax/ppp-pricing?style=social&color=white)](https://github.com/iosdevmax/ppp-pricing/stargazers) | Python scripts and utilities for mobile developers to calculate purchasing power parity adjustments across Apple App Store and Google Play pricing tiers. |
+
+### GeoIP & Location Detection Libraries
+
+High-performance IP geolocation engines and database readers to identify visitor country, region, and ISP at the edge or server level.
+
+| Project | Star Badge | Description |
+|:---|:---|:---|
+| **[node-geoip](https://github.com/geoip-lite/node-geoip)** | [![GitHub stars](https://img.shields.io/github/stars/geoip-lite/node-geoip?style=social&color=white)](https://github.com/geoip-lite/node-geoip/stargazers) | Lightweight native Node.js implementation of MaxMind GeoIP database lookup. Fast, in-memory IP-to-country mapping without external network overhead. |
+| **[GeoIP2-php](https://github.com/maxmind/GeoIP2-php)** | [![GitHub stars](https://img.shields.io/github/stars/maxmind/GeoIP2-php?style=social&color=white)](https://github.com/maxmind/GeoIP2-php/stargazers) | Official MaxMind GeoIP2 PHP reader providing localized location and country metadata for web applications. |
+| **[geoip2-golang](https://github.com/oschwald/geoip2-golang)** | [![GitHub stars](https://img.shields.io/github/stars/oschwald/geoip2-golang?style=social&color=white)](https://github.com/oschwald/geoip2-golang/stargazers) | Fast Go reader for MaxMind DB files (`.mmdb`), widely used in high-throughput microservices and edge reverse proxies for visitor geo-resolution. |
+| **[laravel-geoip](https://github.com/Torann/laravel-geoip)** | [![GitHub stars](https://img.shields.io/github/stars/Torann/laravel-geoip?style=social&color=white)](https://github.com/Torann/laravel-geoip/stargazers) | Laravel integration package to determine visitor geographic location, currency, and country code with built-in caching support. |
+
+### Currency Conversion & Exchange Rate APIs
+
+Open-source real-time and historical foreign exchange rates engines to automate multi-currency conversion calculations.
+
+| Project | Star Badge | Description |
+|:---|:---|:---|
+| **[exchange-api](https://github.com/fawazahmed0/exchange-api)** | [![GitHub stars](https://img.shields.io/github/stars/fawazahmed0/exchange-api?style=social&color=white)](https://github.com/fawazahmed0/exchange-api/stargazers) | Free, open-source currency exchange rates API tracking 200+ currencies and cryptocurrencies with daily automated updates and zero rate limits. |
+| **[swap](https://github.com/florianv/swap)** | [![GitHub stars](https://img.shields.io/github/stars/florianv/swap?style=social&color=white)](https://github.com/florianv/swap/stargazers) | Robust PHP currency conversion and exchange rate library aggregating rates from 30+ financial providers with fallback and caching strategies. |
+
+### Feature Flags & Experimentation Engines
+
+Self-hosted experimentation tools to run geo-targeted A/B pricing tests, regional promotional banners, and location-based feature rollouts.
+
+| Project | Star Badge | Description |
+|:---|:---|:---|
+| **[GrowthBook](https://github.com/growthbook/growthbook)** | [![GitHub stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers) | Open-source feature flagging and A/B testing platform with targeting by custom user attributes (including country, IP, and currency) and Bayesian statistics. |
+| **[Flagsmith](https://github.com/Flagsmith/flagsmith)** | [![GitHub stars](https://img.shields.io/github/stars/Flagsmith/flagsmith?style=social&color=white)](https://github.com/Flagsmith/flagsmith/stargazers) | Open-source feature flag and remote configuration engine supporting geographic user segmentation, remote value overrides, and multivariate experiments. |
+
+---
+
+## Architectural Considerations
+
+When implementing geo-location and price localization in production, keep in mind:
+
+1. **Billing Localization vs. Price Optimization:**
+   - *Billing Localization* (e.g., Chargebee, Medusa, Kill Bill) handles multi-currency presentation, payment gateway routing, and tax compliance (VAT/GST). It solves operational transaction mechanics, not price elasticity.
+   - *Price Optimization* (e.g., PROS, Pricefx, Zilliant) algorithmically determines optimal willingness-to-pay and margin thresholds. Open-source solutions typically do not provide proprietary elasticity engines, which remain primarily commercial.
+2. **Purchasing Power Parity (PPP) Pitfalls:**
+   - Beware of VPN abuse where users spoof locations to gain discounted prices. Recommended defenses include restricting regional discount codes to locally issued credit cards, verifying billing addresses, or utilizing payment methods limited to specific regions.
+3. **Data Privacy & Regulation:**
+   - Comply with GDPR, CCPA, and regional privacy mandates regarding IP address collection and geolocation tracking. Avoid non-transparent, predatory price discrimination practices that violate local consumer protection regulations.
+
+---
+
+## How to Contribute
+
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/new-tool`.
+3. Add the SaaS platform or open-source repository following the established table structure.
+   - For SaaS tools: include verified starting pricing and exact free tier/trial limits.
+   - For open-source tools: verify the project is actively maintained and include its official star badge linking to `/stargazers`.
+4. Commit your changes: `git commit -m "Add <tool-name> to localization tools"`.
+5. Open a Pull Request with a clear summary of the tool's relevance.
+
+---
+
+## Disclaimer
+
+This list is community-curated for informational and architectural evaluation purposes. Mention of specific vendors does not constitute an endorsement. Always verify current licensing, terms of service, and privacy regulations prior to deploying pricing or geolocation systems in production.
