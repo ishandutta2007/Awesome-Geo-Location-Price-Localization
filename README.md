@@ -73,56 +73,56 @@ The table below outlines leading SaaS platforms for pricing optimization, geo-pe
 
 Open-source tooling enables developers to implement localized pricing, geo-IP resolution, currency conversion, and purchasing power parity adjustments without high per-seat or per-traffic SaaS lock-in. 
 
-Entries across each category are sorted in descending order by GitHub star count.
+Entries across each category are sorted in descending order by GitHub Stars_Count.
 
 ### 🛒 Open-Source Commerce & Billing Engines
 
 Self-hosted commerce frameworks and billing infrastructure supporting multi-currency pricing, geographic tax jurisdictions, and regional store localization.
 
-| Project | Star Badge | Description |
+| Project | Stars_Badge | Description |
 |:---|:---|:---|
-| **[Medusa](https://github.com/medusajs/medusa)** | [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Composable, headless commerce platform with built-in multi-region architecture, native multi-currency pricing, custom regional tax providers, and automated shipping zones. |
-| **[Kill Bill](https://github.com/killbill/killbill)** | [![GitHub stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Open-source subscription billing and payments platform. Handles multi-currency invoices, payment routing, tenant-level localization, and self-hosted financial pipelines. |
+| **[Medusa](https://github.com/medusajs/medusa)** | [![GitHub_Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Composable, headless commerce platform with built-in multi-region architecture, native multi-currency pricing, custom regional tax providers, and automated shipping zones. |
+| **[Kill Bill](https://github.com/killbill/killbill)** | [![GitHub_Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Open-source subscription billing and payments platform. Handles multi-currency invoices, payment routing, tenant-level localization, and self-hosted financial pipelines. |
 
 ### ⚖️ Purchasing Power Parity & Geo-Pricing Tools
 
 Libraries and automation scripts designed to calculate and apply purchasing power parity (PPP) multipliers and country-specific pricing tiers.
 
-| Project | Star Badge | Description |
+| Project | Stars_Badge | Description |
 |:---|:---|:---|
-| **[purchasing-power-parity](https://github.com/purchasing-power-parity/purchasing-power-parity)** | [![GitHub stars](https://img.shields.io/github/stars/purchasing-power-parity/purchasing-power-parity?style=social&color=white)](https://github.com/purchasing-power-parity/purchasing-power-parity/stargazers) | Dynamic web application and country pricing multiplier calculator to adjust software and digital product prices globally based on World Bank PPP factors. |
-| **[appstore-ppp-pricing-agent-skill](https://github.com/duceum/appstore-ppp-pricing-agent-skill)** | [![GitHub stars](https://img.shields.io/github/stars/duceum/appstore-ppp-pricing-agent-skill?style=social&color=white)](https://github.com/duceum/appstore-ppp-pricing-agent-skill/stargazers) | CLI tool and agent skill to bulk-update App Store in-app purchases and subscription prices across 175+ countries using purchasing power parity indexes. |
-| **[datasets/ppp](https://github.com/datasets/ppp)** | [![GitHub stars](https://img.shields.io/github/stars/datasets/ppp?style=social&color=white)](https://github.com/datasets/ppp/stargazers) | Clean, machine-readable dataset of World Bank Purchasing Power Parity (PPP) conversion factors and national price level ratios across global economies. |
-| **[ppp-pricing](https://github.com/iosdevmax/ppp-pricing)** | [![GitHub stars](https://img.shields.io/github/stars/iosdevmax/ppp-pricing?style=social&color=white)](https://github.com/iosdevmax/ppp-pricing/stargazers) | Python scripts and utilities for mobile developers to calculate purchasing power parity adjustments across Apple App Store and Google Play pricing tiers. |
+| **[purchasing-power-parity](https://github.com/purchasing-power-parity/purchasing-power-parity)** | [![GitHub_Stars](https://img.shields.io/github/stars/purchasing-power-parity/purchasing-power-parity?style=social&color=white)](https://github.com/purchasing-power-parity/purchasing-power-parity/stargazers) | Dynamic web application and country pricing multiplier calculator to adjust software and digital product prices globally based on World Bank PPP factors. |
+| **[appstore-ppp-pricing-agent-skill](https://github.com/duceum/appstore-ppp-pricing-agent-skill)** | [![GitHub_Stars](https://img.shields.io/github/stars/duceum/appstore-ppp-pricing-agent-skill?style=social&color=white)](https://github.com/duceum/appstore-ppp-pricing-agent-skill/stargazers) | CLI tool and agent skill to bulk-update App Store in-app purchases and subscription prices across 175+ countries using purchasing power parity indexes. |
+| **[datasets/ppp](https://github.com/datasets/ppp)** | [![GitHub_Stars](https://img.shields.io/github/stars/datasets/ppp?style=social&color=white)](https://github.com/datasets/ppp/stargazers) | Clean, machine-readable dataset of World Bank Purchasing Power Parity (PPP) conversion factors and national price level ratios across global economies. |
+| **[ppp-pricing](https://github.com/iosdevmax/ppp-pricing)** | [![GitHub_Stars](https://img.shields.io/github/stars/iosdevmax/ppp-pricing?style=social&color=white)](https://github.com/iosdevmax/ppp-pricing/stargazers) | Python scripts and utilities for mobile developers to calculate purchasing power parity adjustments across Apple App Store and Google Play pricing tiers. |
 
 ### 📍 GeoIP & Location Detection Libraries
 
 High-performance IP geolocation engines and database readers to identify visitor country, region, and ISP at the edge or server level.
 
-| Project | Star Badge | Description |
+| Project | Stars_Badge | Description |
 |:---|:---|:---|
-| **[node-geoip](https://github.com/geoip-lite/node-geoip)** | [![GitHub stars](https://img.shields.io/github/stars/geoip-lite/node-geoip?style=social&color=white)](https://github.com/geoip-lite/node-geoip/stargazers) | Lightweight native Node.js implementation of MaxMind GeoIP database lookup. Fast, in-memory IP-to-country mapping without external network overhead. |
-| **[GeoIP2-php](https://github.com/maxmind/GeoIP2-php)** | [![GitHub stars](https://img.shields.io/github/stars/maxmind/GeoIP2-php?style=social&color=white)](https://github.com/maxmind/GeoIP2-php/stargazers) | Official MaxMind GeoIP2 PHP reader providing localized location and country metadata for web applications. |
-| **[geoip2-golang](https://github.com/oschwald/geoip2-golang)** | [![GitHub stars](https://img.shields.io/github/stars/oschwald/geoip2-golang?style=social&color=white)](https://github.com/oschwald/geoip2-golang/stargazers) | Fast Go reader for MaxMind DB files (`.mmdb`), widely used in high-throughput microservices and edge reverse proxies for visitor geo-resolution. |
-| **[laravel-geoip](https://github.com/Torann/laravel-geoip)** | [![GitHub stars](https://img.shields.io/github/stars/Torann/laravel-geoip?style=social&color=white)](https://github.com/Torann/laravel-geoip/stargazers) | Laravel integration package to determine visitor geographic location, currency, and country code with built-in caching support. |
+| **[node-geoip](https://github.com/geoip-lite/node-geoip)** | [![GitHub_Stars](https://img.shields.io/github/stars/geoip-lite/node-geoip?style=social&color=white)](https://github.com/geoip-lite/node-geoip/stargazers) | Lightweight native Node.js implementation of MaxMind GeoIP database lookup. Fast, in-memory IP-to-country mapping without external network overhead. |
+| **[GeoIP2-php](https://github.com/maxmind/GeoIP2-php)** | [![GitHub_Stars](https://img.shields.io/github/stars/maxmind/GeoIP2-php?style=social&color=white)](https://github.com/maxmind/GeoIP2-php/stargazers) | Official MaxMind GeoIP2 PHP reader providing localized location and country metadata for web applications. |
+| **[geoip2-golang](https://github.com/oschwald/geoip2-golang)** | [![GitHub_Stars](https://img.shields.io/github/stars/oschwald/geoip2-golang?style=social&color=white)](https://github.com/oschwald/geoip2-golang/stargazers) | Fast Go reader for MaxMind DB files (`.mmdb`), widely used in high-throughput microservices and edge reverse proxies for visitor geo-resolution. |
+| **[laravel-geoip](https://github.com/Torann/laravel-geoip)** | [![GitHub_Stars](https://img.shields.io/github/stars/Torann/laravel-geoip?style=social&color=white)](https://github.com/Torann/laravel-geoip/stargazers) | Laravel integration package to determine visitor geographic location, currency, and country code with built-in caching support. |
 
 ### 💱 Currency Conversion & Exchange Rate APIs
 
 Open-source real-time and historical foreign exchange rates engines to automate multi-currency conversion calculations.
 
-| Project | Star Badge | Description |
+| Project | Stars_Badge | Description |
 |:---|:---|:---|
-| **[exchange-api](https://github.com/fawazahmed0/exchange-api)** | [![GitHub stars](https://img.shields.io/github/stars/fawazahmed0/exchange-api?style=social&color=white)](https://github.com/fawazahmed0/exchange-api/stargazers) | Free, open-source currency exchange rates API tracking 200+ currencies and cryptocurrencies with daily automated updates and zero rate limits. |
-| **[swap](https://github.com/florianv/swap)** | [![GitHub stars](https://img.shields.io/github/stars/florianv/swap?style=social&color=white)](https://github.com/florianv/swap/stargazers) | Robust PHP currency conversion and exchange rate library aggregating rates from 30+ financial providers with fallback and caching strategies. |
+| **[exchange-api](https://github.com/fawazahmed0/exchange-api)** | [![GitHub_Stars](https://img.shields.io/github/stars/fawazahmed0/exchange-api?style=social&color=white)](https://github.com/fawazahmed0/exchange-api/stargazers) | Free, open-source currency exchange rates API tracking 200+ currencies and cryptocurrencies with daily automated updates and zero rate limits. |
+| **[swap](https://github.com/florianv/swap)** | [![GitHub_Stars](https://img.shields.io/github/stars/florianv/swap?style=social&color=white)](https://github.com/florianv/swap/stargazers) | Robust PHP currency conversion and exchange rate library aggregating rates from 30+ financial providers with fallback and caching strategies. |
 
 ### 🚩 Feature Flags & Experimentation Engines
 
 Self-hosted experimentation tools to run geo-targeted A/B pricing tests, regional promotional banners, and location-based feature rollouts.
 
-| Project | Star Badge | Description |
+| Project | Stars_Badge | Description |
 |:---|:---|:---|
-| **[GrowthBook](https://github.com/growthbook/growthbook)** | [![GitHub stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers) | Open-source feature flagging and A/B testing platform with targeting by custom user attributes (including country, IP, and currency) and Bayesian statistics. |
-| **[Flagsmith](https://github.com/Flagsmith/flagsmith)** | [![GitHub stars](https://img.shields.io/github/stars/Flagsmith/flagsmith?style=social&color=white)](https://github.com/Flagsmith/flagsmith/stargazers) | Open-source feature flag and remote configuration engine supporting geographic user segmentation, remote value overrides, and multivariate experiments. |
+| **[GrowthBook](https://github.com/growthbook/growthbook)** | [![GitHub_Stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers) | Open-source feature flagging and A/B testing platform with targeting by custom user attributes (including country, IP, and currency) and Bayesian statistics. |
+| **[Flagsmith](https://github.com/Flagsmith/flagsmith)** | [![GitHub_Stars](https://img.shields.io/github/stars/Flagsmith/flagsmith?style=social&color=white)](https://github.com/Flagsmith/flagsmith/stargazers) | Open-source feature flag and remote configuration engine supporting geographic user segmentation, remote value overrides, and multivariate experiments. |
 
 ---
 
@@ -163,7 +163,7 @@ Thank you for exploring this curated repository! If you find this collection hel
 2. 🌿 Create a new branch: `git checkout -b feature/new-tool`.
 3. 📝 Add the SaaS platform or open-source repository following the established table structure.
    - For SaaS tools: include verified starting pricing and exact free tier/trial limits.
-   - For open-source tools: verify the project is actively maintained and include its official star badge linking to `/stargazers`.
+   - For open-source tools: verify the project is actively maintained and include its official Stars_Badge linking to `/stargazers`.
 4. 💾 Commit your changes: `git commit -m "Add <tool-name> to localization tools"`.
 5. 🚀 Open a Pull Request with a clear summary of the tool's relevance.
 
@@ -172,3 +172,12 @@ Thank you for exploring this curated repository! If you find this collection hel
 ## ⚠️ Disclaimer
 
 This list is community-curated for informational and architectural evaluation purposes. Mention of specific vendors does not constitute an endorsement. Always verify current licensing, terms of service, and privacy regulations prior to deploying pricing or geolocation systems in production.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Geo-Location-Price-Localization&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Geo-Location-Price-Localization_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Geo-Location-Price-Localization_growth.svg">
+  </picture>
+</a>
