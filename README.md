@@ -1,46 +1,57 @@
-# Awesome Geo-Location & Price Localization 🌍 💳
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Geo-Location & Price Localization Banner" width="100%" />
+</p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tracked Tools](https://img.shields.io/badge/Tracked%20Tools-15+-blue.svg)](https://github.com/ishandutta2007/Awesome-Geo-Location-Price-Localization)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Geo-Location-Price-Localization/pulls)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+# Awesome Geo-Location & Price Localization 🌍 💳 🚀
 
-> **A curated directory of SaaS platforms, API engines, and open-source GitHub projects for market-specific dynamic pricing, currency localization, geo-targeting, and purchasing power parity (PPP).**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Geo-Location-Price-Localization"><img src="https://img.shields.io/badge/Tracked%20Tools-15+-blue.svg" alt="Tracked Tools" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Geo-Location-Price-Localization/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> **A curated directory of SaaS platforms, API engines, and open-source GitHub projects for market-specific dynamic pricing, currency localization, geo-targeting, and purchasing power parity (PPP).** 🌐 💰
 
 ---
 
-## Overview
+## 📖 Overview
 
 Adapting prices and offers to local consumer purchasing power and currency expectations is one of the highest-leverage growth strategies for modern SaaS, digital products, and international e-commerce. **Price localization** spans multiple architectural tiers:
-- **Billing Localization & Merchant of Record (MoR):** Multi-currency checkout, automated foreign exchange (FX) conversion, and automated local tax calculation (VAT/GST/Sales Tax).
-- **Purchasing Power Parity (PPP) & Geo-Pricing:** Adjusting price indexes dynamically according to country-level GDP per capita or cost-of-living metrics (e.g., Big Mac Index) via IP geolocation.
-- **Enterprise Price Optimization (PO&M):** Advanced algorithmic elasticity modeling, constraint-based margin management, and B2B CPQ (Configure, Price, Quote).
-- **Geo-Targeting & Personalization:** Serving regional product catalogs, contextual landing pages, and localized promo banners based on visitor geolocation.
+- 💳 **Billing Localization & Merchant of Record (MoR):** Multi-currency checkout, automated foreign exchange (FX) conversion, and automated local tax calculation (VAT/GST/Sales Tax).
+- ⚖️ **Purchasing Power Parity (PPP) & Geo-Pricing:** Adjusting price indexes dynamically according to country-level GDP per capita or cost-of-living metrics (e.g., Big Mac Index) via IP geolocation.
+- 📈 **Enterprise Price Optimization (PO&M):** Advanced algorithmic elasticity modeling, constraint-based margin management, and B2B CPQ (Configure, Price, Quote).
+- 🎯 **Geo-Targeting & Personalization:** Serving regional product catalogs, contextual landing pages, and localized promo banners based on visitor geolocation.
 
 ---
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-  - [Open-Source Commerce & Billing Engines](#open-source-commerce--billing-engines)
-  - [Purchasing Power Parity & Geo-Pricing Tools](#purchasing-power-parity--geo-pricing-tools)
-  - [GeoIP & Location Detection Libraries](#geoip--location-detection-libraries)
-  - [Currency Conversion & Exchange Rate APIs](#currency-conversion--exchange-rate-apis)
-  - [Feature Flags & Experimentation Engines](#feature-flags--experimentation-engines)
-- [Architectural Considerations](#architectural-considerations)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+  - [🛒 Open-Source Commerce & Billing Engines](#-open-source-commerce--billing-engines)
+  - [⚖️ Purchasing Power Parity & Geo-Pricing Tools](#️-purchasing-power-parity--geo-pricing-tools)
+  - [📍 GeoIP & Location Detection Libraries](#-geoip--location-detection-libraries)
+  - [💱 Currency Conversion & Exchange Rate APIs](#-currency-conversion--exchange-rate-apis)
+  - [🚩 Feature Flags & Experimentation Engines](#-feature-flags--experimentation-engines)
+- [🏗️ Architectural Considerations](#️-architectural-considerations)
+- [🌟 Star History](#-star-history)
+- [💖 Support](#-support)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global price optimization and commercial localization software sector is valued at approximately **$1.95B to $2.0B in 2026** (scaling past **$9.7B** when factoring in broader enterprise Quote-to-Cash, CPQ, and revenue management suites), compounding at ~16.5% CAGR. The market remains **moderately to highly fragmented**, bifurcated between multi-billion-dollar enterprise CPQ/ERP suites (e.g., PROS, Vendavo, Pricefx), specialized Merchant of Record and subscription billing platforms (e.g., Chargebee, Paddle), and high-growth experimentation and personalization engines (e.g., Bloomreach, Dynamic Yield). No single vendor exercises winner-take-all dominance across all layers, driving sustained M&A activity and hybrid architectures pairing open-source geo-infrastructure with commercial billing backends.
 
 ---
 
-## SaaS/Hosted Platforms
+## 🏢 SaaS & Hosted Platforms
 
 The table below outlines leading SaaS platforms for pricing optimization, geo-personalization, and international billing infrastructure. Entries are sorted in descending order by company size (valuation or annual revenue).
 
@@ -58,13 +69,13 @@ The table below outlines leading SaaS platforms for pricing optimization, geo-pe
 
 ---
 
-## Open-Source GitHub Projects
+## 🛠️ Open-Source GitHub Projects
 
 Open-source tooling enables developers to implement localized pricing, geo-IP resolution, currency conversion, and purchasing power parity adjustments without high per-seat or per-traffic SaaS lock-in. 
 
 Entries across each category are sorted in descending order by GitHub star count.
 
-### Open-Source Commerce & Billing Engines
+### 🛒 Open-Source Commerce & Billing Engines
 
 Self-hosted commerce frameworks and billing infrastructure supporting multi-currency pricing, geographic tax jurisdictions, and regional store localization.
 
@@ -73,7 +84,7 @@ Self-hosted commerce frameworks and billing infrastructure supporting multi-curr
 | **[Medusa](https://github.com/medusajs/medusa)** | [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers) | Composable, headless commerce platform with built-in multi-region architecture, native multi-currency pricing, custom regional tax providers, and automated shipping zones. |
 | **[Kill Bill](https://github.com/killbill/killbill)** | [![GitHub stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Open-source subscription billing and payments platform. Handles multi-currency invoices, payment routing, tenant-level localization, and self-hosted financial pipelines. |
 
-### Purchasing Power Parity & Geo-Pricing Tools
+### ⚖️ Purchasing Power Parity & Geo-Pricing Tools
 
 Libraries and automation scripts designed to calculate and apply purchasing power parity (PPP) multipliers and country-specific pricing tiers.
 
@@ -84,7 +95,7 @@ Libraries and automation scripts designed to calculate and apply purchasing powe
 | **[datasets/ppp](https://github.com/datasets/ppp)** | [![GitHub stars](https://img.shields.io/github/stars/datasets/ppp?style=social&color=white)](https://github.com/datasets/ppp/stargazers) | Clean, machine-readable dataset of World Bank Purchasing Power Parity (PPP) conversion factors and national price level ratios across global economies. |
 | **[ppp-pricing](https://github.com/iosdevmax/ppp-pricing)** | [![GitHub stars](https://img.shields.io/github/stars/iosdevmax/ppp-pricing?style=social&color=white)](https://github.com/iosdevmax/ppp-pricing/stargazers) | Python scripts and utilities for mobile developers to calculate purchasing power parity adjustments across Apple App Store and Google Play pricing tiers. |
 
-### GeoIP & Location Detection Libraries
+### 📍 GeoIP & Location Detection Libraries
 
 High-performance IP geolocation engines and database readers to identify visitor country, region, and ISP at the edge or server level.
 
@@ -95,7 +106,7 @@ High-performance IP geolocation engines and database readers to identify visitor
 | **[geoip2-golang](https://github.com/oschwald/geoip2-golang)** | [![GitHub stars](https://img.shields.io/github/stars/oschwald/geoip2-golang?style=social&color=white)](https://github.com/oschwald/geoip2-golang/stargazers) | Fast Go reader for MaxMind DB files (`.mmdb`), widely used in high-throughput microservices and edge reverse proxies for visitor geo-resolution. |
 | **[laravel-geoip](https://github.com/Torann/laravel-geoip)** | [![GitHub stars](https://img.shields.io/github/stars/Torann/laravel-geoip?style=social&color=white)](https://github.com/Torann/laravel-geoip/stargazers) | Laravel integration package to determine visitor geographic location, currency, and country code with built-in caching support. |
 
-### Currency Conversion & Exchange Rate APIs
+### 💱 Currency Conversion & Exchange Rate APIs
 
 Open-source real-time and historical foreign exchange rates engines to automate multi-currency conversion calculations.
 
@@ -104,7 +115,7 @@ Open-source real-time and historical foreign exchange rates engines to automate 
 | **[exchange-api](https://github.com/fawazahmed0/exchange-api)** | [![GitHub stars](https://img.shields.io/github/stars/fawazahmed0/exchange-api?style=social&color=white)](https://github.com/fawazahmed0/exchange-api/stargazers) | Free, open-source currency exchange rates API tracking 200+ currencies and cryptocurrencies with daily automated updates and zero rate limits. |
 | **[swap](https://github.com/florianv/swap)** | [![GitHub stars](https://img.shields.io/github/stars/florianv/swap?style=social&color=white)](https://github.com/florianv/swap/stargazers) | Robust PHP currency conversion and exchange rate library aggregating rates from 30+ financial providers with fallback and caching strategies. |
 
-### Feature Flags & Experimentation Engines
+### 🚩 Feature Flags & Experimentation Engines
 
 Self-hosted experimentation tools to run geo-targeted A/B pricing tests, regional promotional banners, and location-based feature rollouts.
 
@@ -115,32 +126,49 @@ Self-hosted experimentation tools to run geo-targeted A/B pricing tests, regiona
 
 ---
 
-## Architectural Considerations
+## 🏗️ Architectural Considerations
 
 When implementing geo-location and price localization in production, keep in mind:
 
-1. **Billing Localization vs. Price Optimization:**
+1. ⚖️ **Billing Localization vs. Price Optimization:**
    - *Billing Localization* (e.g., Chargebee, Medusa, Kill Bill) handles multi-currency presentation, payment gateway routing, and tax compliance (VAT/GST). It solves operational transaction mechanics, not price elasticity.
    - *Price Optimization* (e.g., PROS, Pricefx, Zilliant) algorithmically determines optimal willingness-to-pay and margin thresholds. Open-source solutions typically do not provide proprietary elasticity engines, which remain primarily commercial.
-2. **Purchasing Power Parity (PPP) Pitfalls:**
+2. 🛡️ **Purchasing Power Parity (PPP) Pitfalls:**
    - Beware of VPN abuse where users spoof locations to gain discounted prices. Recommended defenses include restricting regional discount codes to locally issued credit cards, verifying billing addresses, or utilizing payment methods limited to specific regions.
-3. **Data Privacy & Regulation:**
+3. 🔒 **Data Privacy & Regulation:**
    - Comply with GDPR, CCPA, and regional privacy mandates regarding IP address collection and geolocation tracking. Avoid non-transparent, predatory price discrimination practices that violate local consumer protection regulations.
 
 ---
 
-## How to Contribute
+## 🌟 Star History
 
-1. Fork this repository.
-2. Create a new branch: `git checkout -b feature/new-tool`.
-3. Add the SaaS platform or open-source repository following the established table structure.
-   - For SaaS tools: include verified starting pricing and exact free tier/trial limits.
-   - For open-source tools: verify the project is actively maintained and include its official star badge linking to `/stargazers`.
-4. Commit your changes: `git commit -m "Add <tool-name> to localization tools"`.
-5. Open a Pull Request with a clear summary of the tool's relevance.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Geo-Location-Price-Localization&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Geo-Location-Price-Localization&type=date&legend=top-left)
 
 ---
 
-## Disclaimer
+## 💖 Support
+
+Thank you for exploring this curated repository! If you find this collection helpful for your projects, architecture, or pricing strategy, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to increase visibility.
+- 🍴 **Fork and contribute** new tools, corrections, or updates.
+- 📢 **Share this repo** with your engineering, growth, and pricing teams.
+- ☕ **Buy me a coffee / Sponsor:** If you would like to support continuous maintenance and new awesome lists, visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 Fork this repository.
+2. 🌿 Create a new branch: `git checkout -b feature/new-tool`.
+3. 📝 Add the SaaS platform or open-source repository following the established table structure.
+   - For SaaS tools: include verified starting pricing and exact free tier/trial limits.
+   - For open-source tools: verify the project is actively maintained and include its official star badge linking to `/stargazers`.
+4. 💾 Commit your changes: `git commit -m "Add <tool-name> to localization tools"`.
+5. 🚀 Open a Pull Request with a clear summary of the tool's relevance.
+
+---
+
+## ⚠️ Disclaimer
 
 This list is community-curated for informational and architectural evaluation purposes. Mention of specific vendors does not constitute an endorsement. Always verify current licensing, terms of service, and privacy regulations prior to deploying pricing or geolocation systems in production.
