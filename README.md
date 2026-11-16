@@ -1,6 +1,6 @@
 # Awesome-Geo-Location-Price-Localization
 
-# Top Geo-Location & Price Localization Ecosystem
+## Top Geo-Location & Price Localization Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Market-Specific Pricing, Currency Localization & Self-Hosted Personalization Engines*  
